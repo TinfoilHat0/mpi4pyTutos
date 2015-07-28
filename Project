@@ -1,0 +1,6 @@
+The hard problem:
+
+We have a couple of fast graph generators. In fact, they can create graphs of 256GB, which is the available memory of our test machine, in a couple of minutes.
+To work with even bigger graphs, we need to explore a distributed approach, splitting the generation over several different machines. MPI is a framework for C++ and Fortran, which allows distributed parallel implementations by offering a standardized way of communication between machines.
+Skills you need: Knowledge of concurrency and parallelism, good grasp of C++, ideally basic knowledge of MPI
+This project was originally meant for a master's thesis so I'm not sure if it is possible to finish it in the time you are here, but we are definitely interested in some preliminary results.
